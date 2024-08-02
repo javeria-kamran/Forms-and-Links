@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>customization</title>
+</head>
+
+<body>
+    <center>
+        <table>
+            <tr>
+                <td width="250" height="40" style="background-color: cadetblue;"><a href="./account.html">
+                        <center>Step 01: Account</center>
+                    </a></td>
+                <td width="250" height="40" style="background-color: cadetblue;"><a href="./personaldetails.html">
+                        <center>Step 02: Personal Details</center>
+                    </a></td>
+                <td width="250" height="40"  style="background-color: rgb(240, 243, 60);"><a href="#">
+                        <center>Step 03: Customization</center>
+                    </a></td>
+            </tr>
+        </table>
+    </center><br><br><br><br>
+
+    <form style="width: 1000px;">
+        <fieldset>
+            <legend><strong>Customizations</strong></legend>
+            <label for="line"><b>How did you hear about us?</b></label> <br>
+            <select name="socialmedia" id="socialmedia">
+                <option value="select">Select your options</option>
+                <option value="facebook">Facebook</option>
+                <option value="Instagram">Instagram</option>
+                <option value="google ads">Google ads</option>
+                <option value="others">Others</option>
+            </select> <br><br>
+            <label for="line2"><b>Which color would you like for your Beasty?</b></label> <br>
+            <input type="radio" name="color">
+            <label for="black">Black</label> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="color">
+            <label for="White">White</label> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="color">
+            <label for="Blue">Blue</label> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <br>
+            <h4>Write for more customization if you need...</h4>
+            <textarea id="specify" name="specify" rows="4" cols="50"
+                placeholder="Enter your customization..."></textarea><br><br>
+            <label for="payment method"><b> Which method you choose for your payments?</b></label> <br>
+            <select name="method" id="payment method">
+                <option value="select">Select method</option>
+                <option value="Credit/Debit">Credit/Debit card</option>
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="paypal">Paypal</option>
+                <option value="applepay">Applepay</option>
+                <option value="googlepay">Googlepay</option>
+            </select> <br><br>
+            <label for="docs"><b>Documents:</b></label> <br>
+            <input type="file"> <br><br>
+            <label for="date"><b>Select date when you wanna visit us..</b></label> <br>
+            <input type="date"><br><br>
+            <input type="checkbox" name="check" id="check" checked><b>Sign me up for email updates.</b>
+            
+            
+            <br><br>
+            <!-- buttons -->
+            <a href="./personaldetails.html"><img src="../assets/back.png" alt="back" height="40"
+                    width="100"></a>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="image" src="../assets/submit.png" height="40" width="100"> 
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
